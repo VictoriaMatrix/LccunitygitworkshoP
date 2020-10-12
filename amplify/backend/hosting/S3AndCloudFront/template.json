@@ -11,4 +11,8 @@
     },
     "Conditions": {
         "ShouldNotCreateEnvResources": {
-            "Fn::Equal
+            "Fn::Equals": [
+                {
+                    "Ref": "env"
+                },
+     
