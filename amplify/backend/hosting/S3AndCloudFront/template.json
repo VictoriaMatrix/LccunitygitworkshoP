@@ -9,4 +9,6 @@
             "Type": "String"
         }
     },
-    "Conditions":
+    "Conditions": {
+        "ShouldNotCreateEnvResources": {
+            "Fn::Equal
