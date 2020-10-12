@@ -6,4 +6,7 @@
             "Type": "String"
         },
         "bucketName": {
- 
+            "Type": "String"
+        }
+    },
+    "Conditions":
