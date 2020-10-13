@@ -28,4 +28,6 @@
                     "Fn::If": [
                         "ShouldNotCreateEnvResources",
                         {
-                            "R
+                            "Ref": "bucketName"
+                        },
+                   
