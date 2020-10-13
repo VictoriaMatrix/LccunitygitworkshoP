@@ -26,4 +26,6 @@
             "Properties": {
                 "BucketName": {
                     "Fn::If": [
-                        "ShouldNotCreateEn
+                        "ShouldNotCreateEnvResources",
+                        {
+                            "R
