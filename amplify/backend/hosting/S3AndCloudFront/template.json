@@ -22,4 +22,6 @@
     "Resources": {
         "S3Bucket": {
             "Type": "AWS::S3::Bucket",
-            "Delet
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "Bucket
