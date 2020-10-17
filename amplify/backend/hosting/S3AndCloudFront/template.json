@@ -46,4 +46,6 @@
                         }
                     ]
                 },
-                "AccessC
+                "AccessControl": "Private",
+                "WebsiteConfiguration": {
+                    "Ind
