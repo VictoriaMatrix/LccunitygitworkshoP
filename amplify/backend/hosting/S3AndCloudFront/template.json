@@ -48,4 +48,5 @@
                 },
                 "AccessControl": "Private",
                 "WebsiteConfiguration": {
-                    "Ind
+                    "IndexDocument": "index.html",
+                    "ErrorDocument": 
