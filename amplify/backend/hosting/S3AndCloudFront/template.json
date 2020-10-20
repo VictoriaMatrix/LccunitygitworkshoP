@@ -49,4 +49,7 @@
                 "AccessControl": "Private",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
-                    "ErrorDocument": 
+                    "ErrorDocument": "index.html"
+                },
+                "CorsConfiguration": {
+      
