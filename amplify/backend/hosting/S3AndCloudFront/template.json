@@ -52,4 +52,6 @@
                     "ErrorDocument": "index.html"
                 },
                 "CorsConfiguration": {
-      
+                    "CorsRules": [
+                        {
+                
