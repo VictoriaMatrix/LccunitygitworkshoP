@@ -54,4 +54,5 @@
                 "CorsConfiguration": {
                     "CorsRules": [
                         {
-                
+                            "AllowedHeaders": [
+                                "Au
