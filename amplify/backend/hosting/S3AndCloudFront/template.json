@@ -55,4 +55,5 @@
                     "CorsRules": [
                         {
                             "AllowedHeaders": [
-                                "Au
+                                "Authorization",
+                                "Content-Leng
