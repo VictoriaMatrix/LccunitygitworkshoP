@@ -56,4 +56,6 @@
                         {
                             "AllowedHeaders": [
                                 "Authorization",
-                                "Content-Leng
+                                "Content-Length"
+                            ],
+                            "AllowedMet
