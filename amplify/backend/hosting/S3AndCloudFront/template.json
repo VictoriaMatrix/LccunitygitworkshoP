@@ -77,4 +77,6 @@
                 "Ref": "AWS::Region"
             }
         },
-        "Hostin
+        "HostingBucketName": {
+            "Description": "Hosting bucket name",
+   
