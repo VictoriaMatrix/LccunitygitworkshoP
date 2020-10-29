@@ -63,4 +63,6 @@
                             ],
                             "AllowedOrigins": [
                                 "*"
-    
+                            ],
+                            "MaxAge": 3000
+           
