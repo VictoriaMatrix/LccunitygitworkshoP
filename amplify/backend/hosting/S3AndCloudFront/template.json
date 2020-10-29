@@ -58,4 +58,6 @@
                                 "Authorization",
                                 "Content-Length"
                             ],
-                            "AllowedMet
+                            "AllowedMethods": [
+                                "GET"
+                            
