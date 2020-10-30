@@ -83,4 +83,7 @@
                 "Ref": "S3Bucket"
             }
         },
-      
+        "WebsiteURL": {
+            "Value": {
+                "Fn::GetAtt": [
+       
