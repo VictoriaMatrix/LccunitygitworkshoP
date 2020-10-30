@@ -79,4 +79,8 @@
         },
         "HostingBucketName": {
             "Description": "Hosting bucket name",
-   
+            "Value": {
+                "Ref": "S3Bucket"
+            }
+        },
+      
