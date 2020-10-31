@@ -92,4 +92,7 @@
             },
             "Description": "URL for website hosted on S3"
         },
-     
+        "S3BucketSecureURL": {
+            "Value": {
+                "Fn::Join": [
+ 
