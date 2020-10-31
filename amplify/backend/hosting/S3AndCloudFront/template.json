@@ -86,4 +86,7 @@
         "WebsiteURL": {
             "Value": {
                 "Fn::GetAtt": [
-       
+                    "S3Bucket",
+                    "WebsiteURL"
+                ]
+     
