@@ -102,4 +102,8 @@
                             "Fn::GetAtt": [
                                 "S3Bucket",
                                 "DomainName"
-                        
+                            ]
+                        }
+                    ]
+                ]
+  
