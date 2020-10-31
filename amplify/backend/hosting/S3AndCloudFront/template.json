@@ -95,4 +95,7 @@
         "S3BucketSecureURL": {
             "Value": {
                 "Fn::Join": [
- 
+                    "",
+                    [
+                        "https://",
+     
