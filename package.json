@@ -1,4 +1,7 @@
 {
   "name": "stox",
   "version": "0.1.0",
-  "pr
+  "private": true,
+  "dependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/
