@@ -19,4 +19,7 @@
     "@types/styled-components": "^4.4.3",
     "axios": "^0.19.2",
     "d3": "^5.15.0",
-    "lodash
+    "lodash": "^4.17.15",
+    "node-html-parser": "^1.2.11",
+    "react": "^16.13.0",
+    
