@@ -26,4 +26,6 @@
     "react-dom": "^16.13.0",
     "react-google-charts": "^3.0.15",
     "react-load-script": "0.0.6",
-    "react-s
+    "react-scripts": "^3.4.0",
+    "request-promise": "^4.2.5",
+    "styled-components": 
