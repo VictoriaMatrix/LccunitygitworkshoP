@@ -4,4 +4,5 @@ import { Api } from "./api"
 import "./App.css"
 import "./bootstrap.min.css"
 import { Colors } from "./Colors"
-import { Header } from "
+import { Header } from "./components/Header"
+import StockChart from "./components/Sto
