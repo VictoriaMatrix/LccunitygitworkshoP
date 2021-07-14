@@ -5,4 +5,6 @@ import "./App.css"
 import "./bootstrap.min.css"
 import { Colors } from "./Colors"
 import { Header } from "./components/Header"
-import StockChart from "./components/Sto
+import StockChart from "./components/StockChart"
+import StockMetricsTable from "./components/StockMetricsTable"
+impo
