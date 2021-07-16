@@ -8,4 +8,6 @@ import { Header } from "./components/Header"
 import StockChart from "./components/StockChart"
 import StockMetricsTable from "./components/StockMetricsTable"
 import { CONFIG } from "./Config"
-import { StockHistory, StockMetric, StockPr
+import { StockHistory, StockMetric, StockProfile } from "./Response"
+import { sp500 } from "./sp500"
+import "./style.css"
