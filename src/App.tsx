@@ -11,3 +11,4 @@ import { CONFIG } from "./Config"
 import { StockHistory, StockMetric, StockProfile } from "./Response"
 import { sp500 } from "./sp500"
 import "./style.css"
+import { addDays, choose, convertQuarterMapping, createOpposite, ran
