@@ -15,4 +15,6 @@ import { addDays, choose, convertQuarterMapping, createOpposite, randomInt } fro
 
 const App: React.FC = () => {
   const [profile, setProfile] = useState<StockProfile>()
-  const [history, setHistory] = useState<StockHistor
+  const [history, setHistory] = useState<StockHistory[]>()
+  const [predict, setPredict] = useState<StockHistory[][]>()
+  const
