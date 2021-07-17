@@ -14,4 +14,5 @@ import "./style.css"
 import { addDays, choose, convertQuarterMapping, createOpposite, randomInt } from "./utils"
 
 const App: React.FC = () => {
-  const [profile, s
+  const [profile, setProfile] = useState<StockProfile>()
+  const [history, setHistory] = useState<StockHistor
