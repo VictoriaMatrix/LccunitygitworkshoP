@@ -19,4 +19,5 @@ const App: React.FC = () => {
   const [predict, setPredict] = useState<StockHistory[][]>()
   const [metrics, setMetrics] = useState<StockMetric[]>()
   const [quarterMapping, setQuarterMapping] = useState<Map<Date, string>>()
-  const [symbol, setSymbol
+  const [symbol, setSymbol] = useState<string>()
+  const [correctAnswer, setCorrectAnswer] = 
