@@ -22,4 +22,5 @@ const App: React.FC = () => {
   const [symbol, setSymbol] = useState<string>()
   const [correctAnswer, setCorrectAnswer] = useState<0|1>()
   const [numCorrect, setNumCorrect] = useState<number>(0)
-  con
+  const [numIncorrect, setNumIncorrect] = useState<number>(0)
+  const [playable
