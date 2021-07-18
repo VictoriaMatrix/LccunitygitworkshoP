@@ -20,4 +20,6 @@ const App: React.FC = () => {
   const [metrics, setMetrics] = useState<StockMetric[]>()
   const [quarterMapping, setQuarterMapping] = useState<Map<Date, string>>()
   const [symbol, setSymbol] = useState<string>()
-  const [correctAnswer, setCorrectAnswer] = 
+  const [correctAnswer, setCorrectAnswer] = useState<0|1>()
+  const [numCorrect, setNumCorrect] = useState<number>(0)
+  con
