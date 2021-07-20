@@ -27,4 +27,7 @@ const App: React.FC = () => {
   const [messageResult, setMessageResult] = useState<string>("")
 
   const loadAll = () => {
-    c
+    const s = choose(sp500)
+
+    Api.getMetrics(s).then(m => {
+      if (m === undefin
