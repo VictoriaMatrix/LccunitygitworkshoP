@@ -24,4 +24,7 @@ const App: React.FC = () => {
   const [numCorrect, setNumCorrect] = useState<number>(0)
   const [numIncorrect, setNumIncorrect] = useState<number>(0)
   const [playable, setPlayable] = useState<boolean>(true)
-  const [messageResu
+  const [messageResult, setMessageResult] = useState<string>("")
+
+  const loadAll = () => {
+    c
