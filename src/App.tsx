@@ -30,4 +30,5 @@ const App: React.FC = () => {
     const s = choose(sp500)
 
     Api.getMetrics(s).then(m => {
-      if (m === undefin
+      if (m === undefined) { throw Error(`unable to get metrics for ${symbol}`) }
+      if (m.leng
