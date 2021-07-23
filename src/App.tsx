@@ -31,4 +31,6 @@ const App: React.FC = () => {
 
     Api.getMetrics(s).then(m => {
       if (m === undefined) { throw Error(`unable to get metrics for ${symbol}`) }
-      if (m.leng
+      if (m.length < CONFIG.quartersHistory + CONFIG.quartersPredict) {
+        return loadAll()
+   
