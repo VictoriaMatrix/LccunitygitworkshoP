@@ -33,4 +33,6 @@ const App: React.FC = () => {
       if (m === undefined) { throw Error(`unable to get metrics for ${symbol}`) }
       if (m.length < CONFIG.quartersHistory + CONFIG.quartersPredict) {
         return loadAll()
-   
+      }
+
+      const startIdx = randomInt(0, m.length - CONFIG.quartersHistory - CONFIG.quartersPre
