@@ -35,4 +35,7 @@ const App: React.FC = () => {
         return loadAll()
       }
 
-      const startIdx = randomInt(0, m.length - CONFIG.quartersHistory - CONFIG.quartersPre
+      const startIdx = randomInt(0, m.length - CONFIG.quartersHistory - CONFIG.quartersPredict)
+      const endIdx = startIdx + CONFIG.quartersHistory
+
+      const p
