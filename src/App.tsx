@@ -38,4 +38,5 @@ const App: React.FC = () => {
       const startIdx = randomInt(0, m.length - CONFIG.quartersHistory - CONFIG.quartersPredict)
       const endIdx = startIdx + CONFIG.quartersHistory
 
-      const p
+      const priorQuarterDate = m[startIdx].date
+      const startDate = addDays(priorQuar
