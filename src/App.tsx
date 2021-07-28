@@ -39,4 +39,6 @@ const App: React.FC = () => {
       const endIdx = startIdx + CONFIG.quartersHistory
 
       const priorQuarterDate = m[startIdx].date
-      const startDate = addDays(priorQuar
+      const startDate = addDays(priorQuarterDate, 1)
+      const endDate = m[endIdx].date
+      const endPred
