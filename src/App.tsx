@@ -41,4 +41,6 @@ const App: React.FC = () => {
       const priorQuarterDate = m[startIdx].date
       const startDate = addDays(priorQuarterDate, 1)
       const endDate = m[endIdx].date
-      const endPred
+      const endPredictDate = m[endIdx + CONFIG.quartersPredict].date
+
+      const filteredMetrics = m.filter(
