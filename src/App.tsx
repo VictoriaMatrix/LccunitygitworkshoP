@@ -46,4 +46,5 @@ const App: React.FC = () => {
       const filteredMetrics = m.filter(sm => sm.date >= startDate && sm.date <= endPredictDate)
       const qm = convertQuarterMapping(m.map(sm => sm.date))
 
-      Api.getHistory(s, startDate, endPredictDa
+      Api.getHistory(s, startDate, endPredictDate).then(data => {
+        const given = data.filter(d => d.date &&  d.date < 
