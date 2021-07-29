@@ -43,4 +43,5 @@ const App: React.FC = () => {
       const endDate = m[endIdx].date
       const endPredictDate = m[endIdx + CONFIG.quartersPredict].date
 
-      const filteredMetrics = m.filter(
+      const filteredMetrics = m.filter(sm => sm.date >= startDate && sm.date <= endPredictDate)
+      const qm = conv
