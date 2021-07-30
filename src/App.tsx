@@ -48,4 +48,6 @@ const App: React.FC = () => {
 
       Api.getHistory(s, startDate, endPredictDate).then(data => {
         const given = data.filter(d => d.date &&  d.date < endDate)
-        const predictActual = data.filter(d => d.date && 
+        const predictActual = data.filter(d => d.date && d.date >= endDate)
+        const predictFake = createOpposite(predictActual)
+ 
