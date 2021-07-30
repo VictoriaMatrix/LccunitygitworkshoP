@@ -47,4 +47,5 @@ const App: React.FC = () => {
       const qm = convertQuarterMapping(m.map(sm => sm.date))
 
       Api.getHistory(s, startDate, endPredictDate).then(data => {
-        const given = data.filter(d => d.date &&  d.date < 
+        const given = data.filter(d => d.date &&  d.date < endDate)
+        const predictActual = data.filter(d => d.date && 
