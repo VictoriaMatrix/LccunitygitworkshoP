@@ -51,4 +51,7 @@ const App: React.FC = () => {
         const predictActual = data.filter(d => d.date && d.date >= endDate)
         const predictFake = createOpposite(predictActual)
         const correctIdx = Math.random() < 0.5 ? 0 : 1
-        const predictChoices = correctIdx === 0 ? [predictActual, predictFake] : [
+        const predictChoices = correctIdx === 0 ? [predictActual, predictFake] : [predictFake, predictActual]
+
+        setSymbol(s)
+        setMetrics(fi
