@@ -57,4 +57,6 @@ const App: React.FC = () => {
         setMetrics(filteredMetrics)
         setQuarterMapping(qm)
         setHistory(given)
-        setPredict(
+        setPredict(predictChoices)
+        setCorrectAnswer(correctIdx)
+        Api.getProfi
