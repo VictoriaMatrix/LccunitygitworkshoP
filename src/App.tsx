@@ -54,4 +54,7 @@ const App: React.FC = () => {
         const predictChoices = correctIdx === 0 ? [predictActual, predictFake] : [predictFake, predictActual]
 
         setSymbol(s)
-        setMetrics(fi
+        setMetrics(filteredMetrics)
+        setQuarterMapping(qm)
+        setHistory(given)
+        setPredict(
