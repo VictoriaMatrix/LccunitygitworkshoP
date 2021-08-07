@@ -59,4 +59,6 @@ const App: React.FC = () => {
         setHistory(given)
         setPredict(predictChoices)
         setCorrectAnswer(correctIdx)
-        Api.getProfi
+        Api.getProfile(s).then(p => setProfile(p))
+        setPlayable(true)
+      }
