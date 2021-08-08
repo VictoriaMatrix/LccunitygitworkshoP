@@ -61,4 +61,12 @@ const App: React.FC = () => {
         setCorrectAnswer(correctIdx)
         Api.getProfile(s).then(p => setProfile(p))
         setPlayable(true)
-      }
+      })
+    })
+  }
+
+  useEffect(() => {
+    loadAll()
+    }, [])
+
+  const checkResult =
