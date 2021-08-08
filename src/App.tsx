@@ -69,4 +69,7 @@ const App: React.FC = () => {
     loadAll()
     }, [])
 
-  const checkResult =
+  const checkResult = (answer: 0 | 1) => {
+    const correct = answer === correctAnswer
+    if (correct) {
+  
