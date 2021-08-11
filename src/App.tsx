@@ -72,4 +72,5 @@ const App: React.FC = () => {
   const checkResult = (answer: 0 | 1) => {
     const correct = answer === correctAnswer
     if (correct) {
-  
+      setMessageResult("... Correct!")
+      setNumCorrect(numCor
