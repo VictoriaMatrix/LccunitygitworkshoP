@@ -79,4 +79,5 @@ const App: React.FC = () => {
       setNumIncorrect(numIncorrect + 1)
     }
 
-    if (predict !== undefined && correctAnswe
+    if (predict !== undefined && correctAnswer !== undefined) {
+      const updated = correctAnswer === 0 ? [pred
