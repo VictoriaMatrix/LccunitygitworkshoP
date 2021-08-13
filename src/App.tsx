@@ -76,4 +76,7 @@ const App: React.FC = () => {
       setNumCorrect(numCorrect + 1)
     } else {
       setMessageResult("... Incorrect :-(")
-      setNumI
+      setNumIncorrect(numIncorrect + 1)
+    }
+
+    if (predict !== undefined && correctAnswe
