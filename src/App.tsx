@@ -87,4 +87,7 @@ const App: React.FC = () => {
   }
 
   if (
-    symbol === undefined
+    symbol === undefined ||
+    profile === undefined ||
+    history === undefined ||
+    metrics === undefine
