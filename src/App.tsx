@@ -90,4 +90,7 @@ const App: React.FC = () => {
     symbol === undefined ||
     profile === undefined ||
     history === undefined ||
-    metrics === undefine
+    metrics === undefined ||
+    quarterMapping === undefined ||
+    predict === undefined
+  ) { return <div>
