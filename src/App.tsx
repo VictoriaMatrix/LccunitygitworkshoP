@@ -81,4 +81,10 @@ const App: React.FC = () => {
 
     if (predict !== undefined && correctAnswer !== undefined) {
       const updated = correctAnswer === 0 ? [predict[correctAnswer], []] : [[], predict[correctAnswer]]
-      setPredict(updat
+      setPredict(updated)
+    }
+    setPlayable(false)
+  }
+
+  if (
+    symbol === undefined
