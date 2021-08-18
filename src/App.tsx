@@ -100,3 +100,7 @@ const App: React.FC = () => {
     {
         accessor: (m: StockMetric) => m["Revenue per Share"],
         colName: "Revenue per Share",
+    },
+    {
+        accessor: (m: StockMetric) => m["Net Income per Share"],
+   
