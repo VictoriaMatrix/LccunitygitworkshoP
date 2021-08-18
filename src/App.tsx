@@ -93,4 +93,9 @@ const App: React.FC = () => {
     metrics === undefined ||
     quarterMapping === undefined ||
     predict === undefined
-  ) { return <div>
+  ) { return <div>Loading...</div> }
+
+  const metricKeys = [
+
+    {
+        accessor: 
