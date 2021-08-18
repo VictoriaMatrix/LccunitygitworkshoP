@@ -98,4 +98,5 @@ const App: React.FC = () => {
   const metricKeys = [
 
     {
-        accessor: 
+        accessor: (m: StockMetric) => m["Revenue per Share"],
+        colName: "Revenue per Share",
