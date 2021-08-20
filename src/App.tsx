@@ -106,4 +106,5 @@ const App: React.FC = () => {
         colName: "Net Income per Share",
     },
     {
-        accessor: (m: StockMe
+        accessor: (m: StockMetric) => m["Operating Cash Flow per Share"],
+        colName: "Ope
