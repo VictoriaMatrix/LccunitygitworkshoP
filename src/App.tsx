@@ -118,4 +118,5 @@ const App: React.FC = () => {
         colName: "Cash per Share",
     },
     {
-        accessor: (m: Stock
+        accessor: (m: StockMetric) => m["Book Value per Share"],
+        colName: "Book Value per Share
