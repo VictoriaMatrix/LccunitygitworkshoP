@@ -138,4 +138,5 @@ const App: React.FC = () => {
         colName: "Market Cap",
     },
     {
-        accessor: 
+        accessor: (m: StockMetric) => m["Enterprise Value"],
+        colName: "Enterp
