@@ -134,4 +134,8 @@ const App: React.FC = () => {
         colName: "Interest Debt per Share",
     },
     {
-        accessor: (m: StockMetric) 
+        accessor: (m: StockMetric) => m["Market Cap"],
+        colName: "Market Cap",
+    },
+    {
+        accessor: 
