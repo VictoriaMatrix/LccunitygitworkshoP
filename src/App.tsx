@@ -154,4 +154,8 @@ const App: React.FC = () => {
         colName: "POCF ratio",
     },
     {
-        accessor: (m: StockMetric) => m["P
+        accessor: (m: StockMetric) => m["PFCF ratio"],
+        colName: "PFCF ratio",
+    },
+    {
+        accesso
