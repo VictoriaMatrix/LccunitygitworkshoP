@@ -163,4 +163,8 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["PTB ratio"],
-        colName: "PTB 
+        colName: "PTB ratio",
+    },
+    {
+        accessor: (m: StockMetric) => m["EV to Sales"],
+       
