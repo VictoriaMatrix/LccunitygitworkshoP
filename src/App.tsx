@@ -171,4 +171,7 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Enterprise Value over EBITDA"],
-        colName: "Enterprise Value over E
+        colName: "Enterprise Value over EBITDA",
+    },
+    {
+        accessor: (m: StockMetric) => m["EV to Operatin
