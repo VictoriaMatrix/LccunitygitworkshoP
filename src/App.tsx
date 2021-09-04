@@ -183,4 +183,7 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Earnings Yield"],
-       
+        colName: "Earnings Yield",
+    },
+    {
+        accessor: (m: StockMetric) =
