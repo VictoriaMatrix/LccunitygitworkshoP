@@ -190,4 +190,5 @@ const App: React.FC = () => {
         colName: "Free Cash Flow Yield",
     },
     {
-  
+        accessor: (m: StockMetric) => m["Debt to Equity"],
+        colName: "Debt to Equity",
