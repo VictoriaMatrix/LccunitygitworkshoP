@@ -198,4 +198,8 @@ const App: React.FC = () => {
         colName: "Debt to Assets",
     },
     {
-        accessor: (m: StockMetric) => m["Net Debt to EBIT
+        accessor: (m: StockMetric) => m["Net Debt to EBITDA"],
+        colName: "Net Debt to EBITDA",
+    },
+    {
+        accesso
