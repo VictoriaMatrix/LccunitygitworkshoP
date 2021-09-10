@@ -210,4 +210,5 @@ const App: React.FC = () => {
         colName: "Interest Coverage",
     },
     {
-        acces
+        accessor: (m: StockMetric) => m["Income Quality"],
+        colName: "Income Qual
