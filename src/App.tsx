@@ -206,4 +206,8 @@ const App: React.FC = () => {
         colName: "Current ratio",
     },
     {
-        accessor: (m: StockMetric) => m["Interest
+        accessor: (m: StockMetric) => m["Interest Coverage"],
+        colName: "Interest Coverage",
+    },
+    {
+        acces
