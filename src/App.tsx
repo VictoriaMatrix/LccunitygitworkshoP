@@ -218,4 +218,7 @@ const App: React.FC = () => {
         colName: "Dividend Yield",
     },
     {
-        accessor: (m: StockM
+        accessor: (m: StockMetric) => m["Payout Ratio"],
+        colName: "Payout Ratio",
+    },
+    {
