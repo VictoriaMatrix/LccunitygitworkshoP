@@ -214,4 +214,8 @@ const App: React.FC = () => {
         colName: "Income Quality",
     },
     {
-        accessor: (m: StockMetric) => m["Dividend Yield"]
+        accessor: (m: StockMetric) => m["Dividend Yield"],
+        colName: "Dividend Yield",
+    },
+    {
+        accessor: (m: StockM
