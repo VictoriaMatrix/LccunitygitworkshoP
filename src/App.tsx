@@ -222,3 +222,5 @@ const App: React.FC = () => {
         colName: "Payout Ratio",
     },
     {
+        accessor: (m: StockMetric) => m["SG&A to Revenue"],
+        colName: "SG
