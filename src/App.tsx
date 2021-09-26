@@ -226,4 +226,8 @@ const App: React.FC = () => {
         colName: "SG&A to Revenue",
     },
     {
-        accessor: (m: StockMetric) => m[
+        accessor: (m: StockMetric) => m["R&D to Revenue"],
+        colName: "R&D to Revenue",
+    },
+    {
+      
