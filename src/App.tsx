@@ -230,4 +230,5 @@ const App: React.FC = () => {
         colName: "R&D to Revenue",
     },
     {
-      
+        accessor: (m: StockMetric) => m["Intangibles to Total Assets"],
+        colNa
