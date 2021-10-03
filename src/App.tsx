@@ -231,4 +231,7 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Intangibles to Total Assets"],
-        colNa
+        colName: "Intangibles to Total Assets",
+    },
+    {
+        accessor: (m: StockMet
