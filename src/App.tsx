@@ -234,4 +234,5 @@ const App: React.FC = () => {
         colName: "Intangibles to Total Assets",
     },
     {
-        accessor: (m: StockMet
+        accessor: (m: StockMetric) => m["Capex to Operating Cash Flow"],
+        colName: "Capex to Operating 
