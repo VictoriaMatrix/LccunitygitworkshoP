@@ -243,4 +243,7 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Capex to Depreciation"],
-        colName: "Capex to Dep
+        colName: "Capex to Depreciation",
+    },
+    {
+        accessor: (m: StockMetric) => m["Stock-based com
