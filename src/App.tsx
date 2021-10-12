@@ -249,3 +249,5 @@ const App: React.FC = () => {
         accessor: (m: StockMetric) => m["Stock-based compensation to Revenue"],
         colName: "Stock-based compensation to Revenue",
     },
+    {
+        accessor: (m: StockMetric) => m["Graham Numbe
