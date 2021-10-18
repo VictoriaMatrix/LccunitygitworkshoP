@@ -258,3 +258,5 @@ const App: React.FC = () => {
         colName: "Graham Net-Net",
     },
     {
+        accessor: (m: StockMetric) => m["Working Capital"],
+        colName: "Work
