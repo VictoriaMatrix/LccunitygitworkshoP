@@ -262,4 +262,7 @@ const App: React.FC = () => {
         colName: "Working Capital",
     },
     {
-        accessor: (m: StockMetric) => m["Ta
+        accessor: (m: StockMetric) => m["Tangible Asset Value"],
+        colName: "Tangible Asset Value",
+    },
+ 
