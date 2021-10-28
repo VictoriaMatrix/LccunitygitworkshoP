@@ -270,4 +270,6 @@ const App: React.FC = () => {
         colName: "Net Current Asset Value",
     },
     {
-        accessor: (m: Sto
+        accessor: (m: StockMetric) => m["Invested Capital"],
+        colName: "Invested Capital",
+    },
