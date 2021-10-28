@@ -273,3 +273,5 @@ const App: React.FC = () => {
         accessor: (m: StockMetric) => m["Invested Capital"],
         colName: "Invested Capital",
     },
+    {
+        accessor: (m: StockMetric) => m["Average Receivables"]
