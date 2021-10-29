@@ -278,4 +278,5 @@ const App: React.FC = () => {
         colName: "Average Receivables",
     },
     {
-        accesso
+        accessor: (m: StockMetric) => m["Average Payables"],
+        colName: "Averag
