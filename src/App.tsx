@@ -279,4 +279,7 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Average Payables"],
-        colName: "Averag
+        colName: "Average Payables",
+    },
+    {
+        accessor: (m: StockMetric) => m["Aver
