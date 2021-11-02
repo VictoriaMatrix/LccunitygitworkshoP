@@ -286,4 +286,5 @@ const App: React.FC = () => {
         colName: "Average Inventory",
     },
     {
-        accessor
+        accessor: (m: StockMetric) => m["Capex per Share"],
+        colName: "Capex per S
