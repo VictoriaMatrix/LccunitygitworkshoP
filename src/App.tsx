@@ -287,4 +287,10 @@ const App: React.FC = () => {
     },
     {
         accessor: (m: StockMetric) => m["Capex per Share"],
-        colName: "Capex per S
+        colName: "Capex per Share",
+    },
+  ]
+
+  // console.log(metrics)
+  // console.log(history)
+  // cons
