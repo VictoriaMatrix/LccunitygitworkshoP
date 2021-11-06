@@ -296,4 +296,7 @@ const App: React.FC = () => {
   // console.log(quarterMapping)
   return (
     <div className="App">
-      <Hea
+      <Header/>
+      <Jumbotron>
+        <Container fluid>
+          <h1>Matt Levine's Insi
