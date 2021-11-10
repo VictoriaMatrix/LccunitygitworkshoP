@@ -299,4 +299,5 @@ const App: React.FC = () => {
       <Header/>
       <Jumbotron>
         <Container fluid>
-          <h1>Matt Levine's Insi
+          <h1>Matt Levine's Insider Trading Game</h1>
+          <Card body>Suppose you had access to a co
