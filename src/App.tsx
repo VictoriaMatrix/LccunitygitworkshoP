@@ -303,4 +303,5 @@ const App: React.FC = () => {
           <Card body>Suppose you had access to a companies earnings report prior to anyone else.
           Surely you could predict the performance of the stock, or could you? Inspired by Matt
           Levine's <a
-            href="htt
+            href="https://www.bloomberg.com/opinion/articles/2019-11-26/knowing-the-future-isn-t-that-helpful">
+        
