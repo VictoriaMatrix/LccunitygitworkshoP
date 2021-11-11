@@ -300,4 +300,5 @@ const App: React.FC = () => {
       <Jumbotron>
         <Container fluid>
           <h1>Matt Levine's Insider Trading Game</h1>
-          <Card body>Suppose you had access to a co
+          <Card body>Suppose you had access to a companies earnings report prior to anyone else.
+          Surely you could predict the performan
