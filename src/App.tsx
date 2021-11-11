@@ -301,4 +301,6 @@ const App: React.FC = () => {
         <Container fluid>
           <h1>Matt Levine's Insider Trading Game</h1>
           <Card body>Suppose you had access to a companies earnings report prior to anyone else.
-          Surely you could predict the performan
+          Surely you could predict the performance of the stock, or could you? Inspired by Matt
+          Levine's <a
+            href="htt
