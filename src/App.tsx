@@ -304,4 +304,4 @@ const App: React.FC = () => {
           Surely you could predict the performance of the stock, or could you? Inspired by Matt
           Levine's <a
             href="https://www.bloomberg.com/opinion/articles/2019-11-26/knowing-the-future-isn-t-that-helpful">
-        
+          Knowing the Future Isn't That Helpful</a>. Check me out o
