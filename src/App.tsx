@@ -307,4 +307,5 @@ const App: React.FC = () => {
           Knowing the Future Isn't That Helpful</a>. Check me out on <a href="https://www.github.com/breeko/stox">
               github</a>
           </Card>
- 
+          <h1>{profile.companyName} ({symbol})</h1>
+          <Card body>{profile.description}
