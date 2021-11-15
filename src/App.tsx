@@ -308,4 +308,6 @@ const App: React.FC = () => {
               github</a>
           </Card>
           <h1>{profile.companyName} ({symbol})</h1>
-          <Card body>{profile.description}
+          <Card body>{profile.description}</Card>
+          <Card body>
+            <p>Try and guess performance for stock {s
