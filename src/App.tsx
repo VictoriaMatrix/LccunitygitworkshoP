@@ -312,4 +312,6 @@ const App: React.FC = () => {
           <Card body>
             <p>Try and guess performance for stock {symbol} in the final quarter</p>
 
-            <p>Number Correct: {numCorrect} Number 
+            <p>Number Correct: {numCorrect} Number Incorrect: {numIncorrect} {messageResult}</p>
+          </Card>
+          <B
