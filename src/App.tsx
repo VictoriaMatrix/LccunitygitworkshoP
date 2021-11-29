@@ -315,4 +315,6 @@ const App: React.FC = () => {
             <p>Number Correct: {numCorrect} Number Incorrect: {numIncorrect} {messageResult}</p>
           </Card>
           <ButtonToolbar>
-            <Button disabled={!playable} style={{backgroundColor
+            <Button disabled={!playable} style={{backgroundColor: Colors.orange}} onClick={() => checkResult(0)}>
+              Option 1
+            <
