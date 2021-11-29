@@ -314,4 +314,5 @@ const App: React.FC = () => {
 
             <p>Number Correct: {numCorrect} Number Incorrect: {numIncorrect} {messageResult}</p>
           </Card>
-          <B
+          <ButtonToolbar>
+            <Button disabled={!playable} style={{backgroundColor
