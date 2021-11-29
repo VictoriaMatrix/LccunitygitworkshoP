@@ -317,4 +317,5 @@ const App: React.FC = () => {
           <ButtonToolbar>
             <Button disabled={!playable} style={{backgroundColor: Colors.orange}} onClick={() => checkResult(0)}>
               Option 1
-            <
+            </Button>
+            <Button disabled={!playable} style={{backgroundColor: Color
