@@ -321,4 +321,5 @@ const App: React.FC = () => {
             <Button disabled={!playable} style={{backgroundColor: Colors.teal}} onClick={() => checkResult(1)}>
               Option 2
             </Button>
-         
+            <Button variant="light" onClick={loadAll}>Play Again</Button>
+          
