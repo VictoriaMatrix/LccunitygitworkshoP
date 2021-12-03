@@ -322,4 +322,5 @@ const App: React.FC = () => {
               Option 2
             </Button>
             <Button variant="light" onClick={loadAll}>Play Again</Button>
-          
+            </ButtonToolbar>
+          <StockChart history={history} predict={predict}
