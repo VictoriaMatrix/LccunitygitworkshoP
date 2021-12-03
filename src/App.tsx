@@ -324,4 +324,4 @@ const App: React.FC = () => {
             <Button variant="light" onClick={loadAll}>Play Again</Button>
             </ButtonToolbar>
           <StockChart history={history} predict={predict} quarterMapping={quarterMapping} />
-          <StockMetricsTable metrics={
+          <StockMetricsTable metrics={metrics} metricKeys={metricKeys} quarterMapping={quarterMappin
