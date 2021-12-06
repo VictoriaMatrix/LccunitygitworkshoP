@@ -324,4 +324,11 @@ const App: React.FC = () => {
             <Button variant="light" onClick={loadAll}>Play Again</Button>
             </ButtonToolbar>
           <StockChart history={history} predict={predict} quarterMapping={quarterMapping} />
-          <StockMetricsTable metrics={metrics} metricKeys={metricKeys} quarterMapping={quarterMappin
+          <StockMetricsTable metrics={metrics} metricKeys={metricKeys} quarterMapping={quarterMapping}/>
+        </Container>
+      </Jumbotron>
+    </div>
+  )
+}
+
+export default App
