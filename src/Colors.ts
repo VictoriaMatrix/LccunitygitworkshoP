@@ -1,1 +1,5 @@
-export const 
+export const Colors = {
+    dark: "#584b42",
+    grey: "grey",
+    orange: "#f77754",
+    te
