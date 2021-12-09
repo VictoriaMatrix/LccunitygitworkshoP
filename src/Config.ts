@@ -1,4 +1,5 @@
 
 export const CONFIG = {
     quartersHistory: 4,
-    quarters
+    quartersPredict: 1
+}
