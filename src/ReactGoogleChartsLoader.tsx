@@ -3,4 +3,7 @@ import * as React from "react"
 import { default as Script } from "react-load-script"
 
 interface Props {
-  chartLanguage?: s
+  chartLanguage?: string
+  mapsApiKey?: string
+  onLoad: (g: typeof google) => void
+  onErro
