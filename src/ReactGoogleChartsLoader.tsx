@@ -9,4 +9,7 @@ interface Props {
   onError: () => void
 }
 
-export class GoogleChartLoader extends React.Componen
+export class GoogleChartLoader extends React.Component<Props> {
+  public render() {
+    const { onError } = this.props
+    return
