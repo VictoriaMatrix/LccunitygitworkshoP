@@ -6,4 +6,7 @@ interface Props {
   chartLanguage?: string
   mapsApiKey?: string
   onLoad: (g: typeof google) => void
-  onErro
+  onError: () => void
+}
+
+export class GoogleChartLoader extends React.Componen
