@@ -12,4 +12,6 @@ interface Props {
 export class GoogleChartLoader extends React.Component<Props> {
   public render() {
     const { onError } = this.props
-    return
+    return (
+      <Script
+        url="https://www.gstatic.com/charts/loader.js"
