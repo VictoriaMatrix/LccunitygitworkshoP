@@ -18,4 +18,10 @@ export class GoogleChartLoader extends React.Component<Props> {
         onError={onError}
         onLoad={() => {
           if (window && window.google) {
-            this.handleGoogleChartsLoaderScriptLoa
+            this.handleGoogleChartsLoaderScriptLoaded(
+              window.google,
+            )
+          }
+        }}
+      />
+ 
