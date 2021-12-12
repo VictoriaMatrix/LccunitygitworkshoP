@@ -17,4 +17,5 @@ export class GoogleChartLoader extends React.Component<Props> {
         url="https://www.gstatic.com/charts/loader.js"
         onError={onError}
         onLoad={() => {
-          if (
+          if (window && window.google) {
+            this.handleGoogleChartsLoaderScriptLoa
