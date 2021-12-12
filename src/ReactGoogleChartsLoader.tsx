@@ -24,4 +24,7 @@ export class GoogleChartLoader extends React.Component<Props> {
           }
         }}
       />
- 
+    )
+  }
+  private handleGoogleChartsLoaderScriptLoaded = (
+    windowGoogleCharts: typeof googl
