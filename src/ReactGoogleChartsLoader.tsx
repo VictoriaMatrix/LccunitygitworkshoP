@@ -27,4 +27,9 @@ export class GoogleChartLoader extends React.Component<Props> {
     )
   }
   private handleGoogleChartsLoaderScriptLoaded = (
-    windowGoogleCharts: typeof googl
+    windowGoogleCharts: typeof google,
+  ) => {
+    const {
+      chartLanguage: language,
+      mapsApiKey,
+      on
