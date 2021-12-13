@@ -32,4 +32,6 @@ export class GoogleChartLoader extends React.Component<Props> {
     const {
       chartLanguage: language,
       mapsApiKey,
-      on
+      onLoad,
+    } = this.props
+    windowGoogleCharts.charts.load("current", 
