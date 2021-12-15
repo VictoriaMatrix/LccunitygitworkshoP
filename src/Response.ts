@@ -97,3 +97,82 @@ export interface StockMetric {
   "SG&A to Revenue": number,
   "R&D to Revenue": number,
   "Intangibles to Total Assets": number,
+  "Capex to Operating Cash Flow": number,
+  "Capex to Revenue": number,
+  "Capex to Depreciation": number
+  "Stock-based compensation to Revenue": number,
+  "Graham Number": number,
+  "Graham Net-Net": number,
+  "Working Capital": number,
+  "Tangible Asset Value": number,
+  "Net Current Asset Value": number,
+  "Invested Capital": number,
+  "Average Receivables": number,
+  "Average Payables": number,
+  "Average Inventory": number,
+  "Capex per Share": number
+}
+
+export interface StockMetricsResponse {
+  symbol: string,
+  metrics: Array<{
+    "date": string,
+    "Revenue per Share": string,
+    "Net Income per Share": string,
+    "Operating Cash Flow per Share": string,
+    "Free Cash Flow per Share": string,
+    "Cash per Share": string,
+    "Book Value per Share": string,
+    "Tangible Book Value per Share": string,
+    "Shareholders Equity per Share": string,
+    "Interest Debt per Share": string,
+    "Market Cap": string,
+    "Enterprise Value": string,
+    "PE ratio": string,
+    "Price to Sales Ratio": string,
+    "POCF ratio": string,
+    "PFCF ratio": string,
+    "PB ratio": string,
+    "PTB ratio": string,
+    "EV to Sales": string,
+    "Enterprise Value over EBITDA": string,
+    "EV to Operating cash flow": string,
+    "EV to Free cash flow": string,
+    "Earnings Yield": string,
+    "Free Cash Flow Yield": string,
+    "Debt to Equity": string,
+    "Debt to Assets": string,
+    "Net Debt to EBITDA": string,
+    "Current ratio": string,
+    "Interest Coverage": string,
+    "Income Quality": string,
+    "Dividend Yield": string,
+    "Payout Ratio": string,
+    "SG&A to Revenue": string,
+    "R&D to Revenue": string,
+    "Intangibles to Total Assets": string,
+    "Capex to Operating Cash Flow": string,
+    "Capex to Revenue": string,
+    "Capex to Depreciation": string,
+    "Stock-based compensation to Revenue": string,
+    "Graham Number": string,
+    "Graham Net-Net": string,
+    "Working Capital": string,
+    "Tangible Asset Value": string,
+    "Net Current Asset Value": string,
+    "Invested Capital": string,
+    "Average Receivables": string,
+    "Average Payables": string,
+    "Average Inventory": string,
+    "Capex per Share": number,
+  }>
+}
+
+export interface StockList {
+  symbolsList: Array<{
+    symbol: string
+    name: string
+    price: number
+    exchange: string
+  }>
+}
