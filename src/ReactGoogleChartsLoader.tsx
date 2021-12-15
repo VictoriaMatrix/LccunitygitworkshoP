@@ -39,4 +39,8 @@ export class GoogleChartLoader extends React.Component<Props> {
       mapsApiKey,
       packages: ["corechart", "controls"],
     })
-    windowGoogleCharts.charts.setOnLoadCallba
+    windowGoogleCharts.charts.setOnLoadCallback(() => {
+      onLoad(windowGoogleCharts)
+    })
+  }
+}
