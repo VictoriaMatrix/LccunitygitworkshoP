@@ -1,2 +1,6 @@
 import rp from "request-promise"
-import { StockHistorica
+import { StockHistoricalResponse,
+  StockHistory,
+  StockList,
+  StockMetric,
+  StockMetricsR
