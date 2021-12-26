@@ -7,4 +7,7 @@ import { StockHistoricalResponse,
   StockProfile,
   StockProfileResponse,
 } from "./Response"
-import { convertDate, conve
+import { convertDate, convertNumeric, parseDate } from "./utils"
+
+const Urls = {
+    history: (stock: str
