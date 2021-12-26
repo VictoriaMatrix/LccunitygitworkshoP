@@ -3,4 +3,8 @@ import { StockHistoricalResponse,
   StockHistory,
   StockList,
   StockMetric,
-  StockMetricsR
+  StockMetricsResponse,
+  StockProfile,
+  StockProfileResponse,
+} from "./Response"
+import { convertDate, conve
