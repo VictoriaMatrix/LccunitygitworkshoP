@@ -11,4 +11,4 @@ import { convertDate, convertNumeric, parseDate } from "./utils"
 
 const Urls = {
     history: (stock: string, from: Date, to: Date) =>
-      `https://financialmodelingp
+      `https://financialmodelingprep.com/api/v3/historical-price-full/${stock}?from=${convertDate(from)}&to=${convert
