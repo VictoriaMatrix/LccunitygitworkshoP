@@ -10,4 +10,5 @@ import { StockHistoricalResponse,
 import { convertDate, convertNumeric, parseDate } from "./utils"
 
 const Urls = {
-    history: (stock: str
+    history: (stock: string, from: Date, to: Date) =>
+      `https://financialmodelingp
