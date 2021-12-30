@@ -15,4 +15,4 @@ const Urls = {
     list: () =>
     `https://financialmodelingprep.com/api/v3/company/stock/list?apikey=${process.env.REACT_APP_API_KEY}`,
     metrics: (stock: string) =>
-      `https
+      `https://financialmodelingprep.com/api/v3/company-key-metrics/${stock}?perio
