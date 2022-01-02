@@ -16,4 +16,5 @@ const Urls = {
     `https://financialmodelingprep.com/api/v3/company/stock/list?apikey=${process.env.REACT_APP_API_KEY}`,
     metrics: (stock: string) =>
       `https://financialmodelingprep.com/api/v3/company-key-metrics/${stock}?period=quarter&apikey=${process.env.REACT_APP_API_KEY}`,
-    // news: (stock: 
+    // news: (stock: string, before: Date) =>
+    // `https://newsapi.org/v2/everything?q=${stock}&from=$
