@@ -19,4 +19,5 @@ const Urls = {
     // news: (stock: string, before: Date) =>
     // `https://newsapi.org/v2/everything?q=${stock}&from=${before}&apiKey=${Secret.REACT_APP_NEWS_API_KEY}`,
     newsRaw: (stock: string, before: Date) =>
-    `https://news.google.com/search?q=$
+    `https://news.google.com/search?q=${stock}+before:${convertDate(before)}&hl=en-US&gl=US&ceid=US:en`,
+    prof
