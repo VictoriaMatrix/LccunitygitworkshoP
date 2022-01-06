@@ -24,4 +24,5 @@ const Urls = {
     `https://financialmodelingprep.com/api/v3/company/profile/${stock}?apikey=${process.env.REACT_APP_API_KEY}`,
 }
 
-e
+export const Api = {
+    getHistory: async (stock: string, from: Date, to: Date): Pr
