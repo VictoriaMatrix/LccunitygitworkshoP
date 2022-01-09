@@ -25,4 +25,6 @@ const Urls = {
 }
 
 export const Api = {
-    getHistory: async (stock: string, from: Date, to: Date): Pr
+    getHistory: async (stock: string, from: Date, to: Date): Promise<StockHistory[]> => {
+        const url = Urls.history(stock, from, to)
+        re
