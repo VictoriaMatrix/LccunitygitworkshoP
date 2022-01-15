@@ -30,4 +30,5 @@ export const Api = {
         return rp(url)
             .then((raw: string) => {
                 const data = JSON.parse(raw) as StockHistoricalResponse
-                const historical =
+                const historical = data.historical.map(n => ({...n, date: parseDate(n.date)}))
+                r
