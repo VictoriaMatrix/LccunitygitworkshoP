@@ -29,4 +29,5 @@ export const Api = {
         const url = Urls.history(stock, from, to)
         return rp(url)
             .then((raw: string) => {
-                const data = JS
+                const data = JSON.parse(raw) as StockHistoricalResponse
+                const historical =
