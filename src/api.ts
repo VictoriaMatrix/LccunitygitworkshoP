@@ -31,4 +31,8 @@ export const Api = {
             .then((raw: string) => {
                 const data = JSON.parse(raw) as StockHistoricalResponse
                 const historical = data.historical.map(n => ({...n, date: parseDate(n.date)}))
-                r
+                return historical
+            })
+    },
+
+  getProfile: async (stock: string): Promise<StockProfil
