@@ -37,4 +37,6 @@ export const Api = {
 
   getProfile: async (stock: string): Promise<StockProfile> => {
     const url = Urls.profile(stock)
-    return rp(url).th
+    return rp(url).then((raw: string) => {
+        const parsed = (JSON.parse(raw) as StockProfileResponse)
+  
