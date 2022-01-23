@@ -47,4 +47,6 @@ export const Api = {
     const url = Urls.metrics(stock)
     return rp(url)
       .then((raw: string) => {
-        const data = JSON.parse(raw) 
+        const data = JSON.parse(raw) as StockMetricsResponse
+        // TODO: what if no metrics??
+        if (data === und
