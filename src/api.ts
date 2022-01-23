@@ -39,4 +39,8 @@ export const Api = {
     const url = Urls.profile(stock)
     return rp(url).then((raw: string) => {
         const parsed = (JSON.parse(raw) as StockProfileResponse)
-  
+        return parsed.profile
+    })
+  },
+
+  getMetrics: async (stock: stri
