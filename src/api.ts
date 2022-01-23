@@ -45,4 +45,6 @@ export const Api = {
 
   getMetrics: async (stock: string): Promise<StockMetric[]> => {
     const url = Urls.metrics(stock)
-    r
+    return rp(url)
+      .then((raw: string) => {
+        const data = JSON.parse(raw) 
