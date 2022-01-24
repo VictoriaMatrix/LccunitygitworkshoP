@@ -53,4 +53,6 @@ export const Api = {
           return []
         }
         const metrics = data.metrics
-            .map(m => convert
+            .map(m => convertNumeric(m))
+            // @ts-ignore
+            .map(m => ({...m, d
