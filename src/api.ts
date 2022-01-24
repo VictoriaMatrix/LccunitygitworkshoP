@@ -51,3 +51,6 @@ export const Api = {
         // TODO: what if no metrics??
         if (data === undefined || data.metrics === undefined) {
           return []
+        }
+        const metrics = data.metrics
+            .map(m => convert
