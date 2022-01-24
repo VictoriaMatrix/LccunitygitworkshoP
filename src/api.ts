@@ -49,4 +49,5 @@ export const Api = {
       .then((raw: string) => {
         const data = JSON.parse(raw) as StockMetricsResponse
         // TODO: what if no metrics??
-        if (data === und
+        if (data === undefined || data.metrics === undefined) {
+          return []
