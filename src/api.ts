@@ -56,4 +56,7 @@ export const Api = {
             .map(m => convertNumeric(m))
             // @ts-ignore
             .map(m => ({...m, date: new Date(Date.parse(m.date))})) as StockMetric[]
-        return metrics.rev
+        return metrics.reverse()
+      })
+  },
+  listStocks: async (): Promise<StockList
