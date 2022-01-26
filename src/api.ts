@@ -55,4 +55,5 @@ export const Api = {
         const metrics = data.metrics
             .map(m => convertNumeric(m))
             // @ts-ignore
-            .map(m => ({...m, d
+            .map(m => ({...m, date: new Date(Date.parse(m.date))})) as StockMetric[]
+        return metrics.rev
