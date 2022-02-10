@@ -61,4 +61,6 @@ export const Api = {
   },
   listStocks: async (): Promise<StockList> => {
     const url = Urls.list()
-    return rp(url).then((raw: string) => JSON
+    return rp(url).then((raw: string) => JSON.parse(raw) as StockList)
+  },
+}
