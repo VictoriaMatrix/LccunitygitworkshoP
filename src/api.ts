@@ -59,4 +59,6 @@ export const Api = {
         return metrics.reverse()
       })
   },
-  listStocks: async (): Promise<StockList
+  listStocks: async (): Promise<StockList> => {
+    const url = Urls.list()
+    return rp(url).then((raw: string) => JSON
