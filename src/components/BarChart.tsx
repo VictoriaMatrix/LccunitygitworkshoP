@@ -6,4 +6,7 @@ const BarChart: React.FC = () => {
     const data = [2,4,2,6,8]
 
     useEffect(() => {
-   
+        drawBarChart(data)
+    }, [])
+
+    const drawBarChart = (data: nu
