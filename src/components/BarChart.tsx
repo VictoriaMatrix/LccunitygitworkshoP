@@ -9,4 +9,7 @@ const BarChart: React.FC = () => {
         drawBarChart(data)
     }, [])
 
-    const drawBarChart = (data: nu
+    const drawBarChart = (data: number[]) => {
+        d3.select(canvas.current)
+            .append('svg')
+            .at
