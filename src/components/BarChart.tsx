@@ -12,4 +12,6 @@ const BarChart: React.FC = () => {
     const drawBarChart = (data: number[]) => {
         d3.select(canvas.current)
             .append('svg')
-            .at
+            .attr('width', 600)
+            .attr('height', 400)
+            .
