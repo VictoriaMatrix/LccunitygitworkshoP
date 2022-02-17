@@ -14,4 +14,8 @@ const BarChart: React.FC = () => {
             .append('svg')
             .attr('width', 600)
             .attr('height', 400)
-            .
+            .style('border', '1px solid black')
+
+    }
+    
+    return(<div r
