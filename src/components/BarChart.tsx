@@ -18,4 +18,7 @@ const BarChart: React.FC = () => {
 
     }
     
-    return(<div r
+    return(<div ref={canvas}></div>)
+}
+
+export default BarChart
