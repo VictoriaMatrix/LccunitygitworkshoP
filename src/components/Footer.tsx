@@ -2,4 +2,5 @@ import React from "react"
 
 export const Footer: React.FC = () => {
     return(
-        <foot
+        <footer className=".app-footer">
+            <div className="ml-au
