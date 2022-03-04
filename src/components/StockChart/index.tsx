@@ -6,4 +6,6 @@ import { StockChartProps, StockNode } from "../../types"
 import { getQuarter } from "../../utils"
 import { getChartData, getChartOptions } from "./utils"
 
-const StockCha
+const StockChart: React.FC<StockChartProps> = (props) => {
+
+  const [g, setG] = useState<typeof go
