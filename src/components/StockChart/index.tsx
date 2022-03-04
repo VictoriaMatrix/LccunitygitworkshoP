@@ -3,4 +3,7 @@ import React, { Fragment, useEffect, useState } from "react"
 import { GoogleChartLoader } from "../../ReactGoogleChartsLoader"
 import { StockHistory } from "../../Response"
 import { StockChartProps, StockNode } from "../../types"
-import { getQuarter } from "../../u
+import { getQuarter } from "../../utils"
+import { getChartData, getChartOptions } from "./utils"
+
+const StockCha
