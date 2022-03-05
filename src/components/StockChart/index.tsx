@@ -11,4 +11,8 @@ const StockChart: React.FC<StockChartProps> = (props) => {
   const [g, setG] = useState<typeof google>()
 
   // TODO: chart ref.current is always null
-  const chartRef = React.createRef<HT
+  const chartRef = React.createRef<HTMLDivElement>()
+
+  useEffect(() => {
+    draw()
+  }, [g, props.p
