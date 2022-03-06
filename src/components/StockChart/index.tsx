@@ -15,4 +15,6 @@ const StockChart: React.FC<StockChartProps> = (props) => {
 
   useEffect(() => {
     draw()
-  }, [g, props.p
+  }, [g, props.predict])
+
+  const convertHistory = (history: StockHistory[]): StockNo
