@@ -17,4 +17,8 @@ const StockChart: React.FC<StockChartProps> = (props) => {
     draw()
   }, [g, props.predict])
 
-  const convertHistory = (history: StockHistory[]): StockNo
+  const convertHistory = (history: StockHistory[]): StockNode[] =>
+    history.map(h => ({
+      close: h.close,
+      date: h.date,
+  
