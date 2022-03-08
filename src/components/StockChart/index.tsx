@@ -21,4 +21,5 @@ const StockChart: React.FC<StockChartProps> = (props) => {
     history.map(h => ({
       close: h.close,
       date: h.date,
-  
+      quarter: h.date ? getQuarter(h.date, props.quarterMapping) : "NA",
+    
