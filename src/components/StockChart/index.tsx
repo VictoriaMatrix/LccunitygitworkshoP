@@ -22,4 +22,6 @@ const StockChart: React.FC<StockChartProps> = (props) => {
       close: h.close,
       date: h.date,
       quarter: h.date ? getQuarter(h.date, props.quarterMapping) : "NA",
-    
+      time: h.date ? h.date.getTime() : 0}))
+
+  const data
