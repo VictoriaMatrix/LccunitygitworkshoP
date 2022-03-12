@@ -24,4 +24,5 @@ const StockChart: React.FC<StockChartProps> = (props) => {
       quarter: h.date ? getQuarter(h.date, props.quarterMapping) : "NA",
       time: h.date ? h.date.getTime() : 0}))
 
-  const data
+  const data = convertHistory(props.history)
+  const predict = props.predict.map(p => convertHis
