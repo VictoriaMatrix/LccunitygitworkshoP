@@ -28,4 +28,7 @@ const StockChart: React.FC<StockChartProps> = (props) => {
   const predict = props.predict.map(p => convertHistory(p))
 
   const chartData = g && getChartData(g, data, predict)
-  const cha
+  const chartOptions = getChartOptions(data, predict)
+
+  const draw = () => {
+    if (chartRe
