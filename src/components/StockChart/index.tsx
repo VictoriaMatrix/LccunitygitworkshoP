@@ -31,4 +31,5 @@ const StockChart: React.FC<StockChartProps> = (props) => {
   const chartOptions = getChartOptions(data, predict)
 
   const draw = () => {
-    if (chartRe
+    if (chartRef.current && g && chartData) {
+      const chart = new g.visualization.LineCh
