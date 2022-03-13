@@ -32,4 +32,7 @@ const StockChart: React.FC<StockChartProps> = (props) => {
 
   const draw = () => {
     if (chartRef.current && g && chartData) {
-      const chart = new g.visualization.LineCh
+      const chart = new g.visualization.LineChart(chartRef.current)
+      chart.draw(chartData, chartOptions)
+    }
+  }
