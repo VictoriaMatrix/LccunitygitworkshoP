@@ -36,3 +36,10 @@ const StockChart: React.FC<StockChartProps> = (props) => {
       chart.draw(chartData, chartOptions)
     }
   }
+
+  window.onload = draw
+  window.onresize = draw
+
+  return(
+    <Fragment>
+   
