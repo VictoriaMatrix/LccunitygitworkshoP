@@ -48,3 +48,8 @@ const StockChart: React.FC<StockChartProps> = (props) => {
     />
       <div ref={chartRef}></div>
     </Fragment>
+
+  )
+}
+
+export default StockChart
