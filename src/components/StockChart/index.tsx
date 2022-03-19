@@ -42,4 +42,6 @@ const StockChart: React.FC<StockChartProps> = (props) => {
 
   return(
     <Fragment>
-   
+    <GoogleChartLoader
+      onLoad={setG}
+      onError={() => alert(`so
