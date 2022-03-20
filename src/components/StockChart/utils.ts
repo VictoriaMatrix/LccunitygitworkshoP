@@ -4,4 +4,6 @@ import { StockNode } from "../../types"
 import { seqArray, unique } from "../../utils"
 
 export const getChartData = (g: typeof google, data: StockNode[], predict: StockNode[][]) => {
-    const actualData = new g.visualization.Data
+    const actualData = new g.visualization.DataTable()
+    actualData.addColumn({type: "date", label: "Date"})
+    ac
