@@ -3,4 +3,4 @@ import { Colors } from "../../Colors"
 import { StockNode } from "../../types"
 import { seqArray, unique } from "../../utils"
 
-export 
+export const getChartData = (g: typeof google, data: StockNode[], p
