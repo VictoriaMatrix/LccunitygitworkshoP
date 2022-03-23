@@ -7,4 +7,6 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
     const actualData = new g.visualization.DataTable()
     actualData.addColumn({type: "date", label: "Date"})
     actualData.addColumn({type: "number", label: "Historic"})
-    data.forEach(n => ac
+    data.forEach(n => actualData.addRow(n.date ? [n.date, n.close] : undefined))
+
+    const predictDa
