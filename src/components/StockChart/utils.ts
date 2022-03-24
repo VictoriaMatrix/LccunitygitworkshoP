@@ -11,4 +11,5 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
 
     const predictDatas = predict.map((p, idx) => {
       const predictData = new g.visualization.DataTable()
-      predictD
+      predictData.addColumn({type: "date", label: "Date"})
+      predictData.addCol
