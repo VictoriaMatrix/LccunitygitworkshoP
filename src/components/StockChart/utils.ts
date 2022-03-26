@@ -17,4 +17,6 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
       return predictData
     })
 
-    l
+    let allDatas = actualData
+    predictDatas.forEach( (p, idx) => {
+      const colsToInc
