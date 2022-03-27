@@ -21,4 +21,5 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
     predictDatas.forEach( (p, idx) => {
       const colsToInclude = seqArray(1, idx + 1)
       // @ts-ignore
-      allDatas 
+      allDatas = g.visualization.data.join(allDatas, p, "full", [[0, 0]], colsToInclude, [1])
+    }
