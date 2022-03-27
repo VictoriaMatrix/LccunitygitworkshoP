@@ -19,4 +19,6 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
 
     let allDatas = actualData
     predictDatas.forEach( (p, idx) => {
-      const colsToInc
+      const colsToInclude = seqArray(1, idx + 1)
+      // @ts-ignore
+      allDatas 
