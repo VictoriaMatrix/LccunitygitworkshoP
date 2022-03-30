@@ -27,4 +27,6 @@ export const getChartData = (g: typeof google, data: StockNode[], predict: Stock
 }
 
 export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
-    const combinedData = flatten([data,
+    const combinedData = flatten([data, ...predict])
+
+    const quarters = unique(combinedData.map(n 
