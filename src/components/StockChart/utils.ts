@@ -31,4 +31,4 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
 
     const quarters = unique(combinedData.map(n => n.quarter))
     const referenceTimes = quarters.flatMap(q =>
-    co
+    combinedData.find(n => n.quarter === q) || []).map(n => ({f: n.quarter, v
