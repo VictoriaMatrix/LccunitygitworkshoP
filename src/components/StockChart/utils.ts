@@ -36,4 +36,6 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
     const options: google.visualization.LineChartOptions = {
         colors: [Colors.dark, Colors.orange, Colors.teal],
         hAxis: {
-            g
+            gridlines: {
+            color: Colors.grey,
+            count: referen
