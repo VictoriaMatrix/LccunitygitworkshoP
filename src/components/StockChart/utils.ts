@@ -34,4 +34,6 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
     combinedData.find(n => n.quarter === q) || []).map(n => ({f: n.quarter, v: n.date}))
 
     const options: google.visualization.LineChartOptions = {
- 
+        colors: [Colors.dark, Colors.orange, Colors.teal],
+        hAxis: {
+            g
