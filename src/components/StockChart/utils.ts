@@ -31,4 +31,7 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
 
     const quarters = unique(combinedData.map(n => n.quarter))
     const referenceTimes = quarters.flatMap(q =>
-    combinedData.find(n => n.quarter === q) || []).map(n => ({f: n.quarter, v
+    combinedData.find(n => n.quarter === q) || []).map(n => ({f: n.quarter, v: n.date}))
+
+    const options: google.visualization.LineChartOptions = {
+ 
