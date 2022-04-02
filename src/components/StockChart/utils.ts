@@ -38,4 +38,7 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
         hAxis: {
             gridlines: {
             color: Colors.grey,
-            count: referen
+            count: referenceTimes.length,
+            },
+            ticks: referenceTimes,
+        },
