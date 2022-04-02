@@ -42,3 +42,7 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
             },
             ticks: referenceTimes,
         },
+        height: 300,
+        legend: {position: "bottom"},
+    }
+    return
