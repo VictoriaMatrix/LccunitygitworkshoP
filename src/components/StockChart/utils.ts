@@ -45,4 +45,5 @@ export const getChartOptions = (data: StockNode[], predict: StockNode[][]) => {
         height: 300,
         legend: {position: "bottom"},
     }
-    return
+    return options
+}
