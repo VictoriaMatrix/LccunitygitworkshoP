@@ -6,4 +6,6 @@ import { getQuarter } from "../utils"
 
 interface StockMetricsTableProps {
   metrics: StockMetric[]
-  metricKeys: Ar
+  metricKeys: Array<{
+    accessor: (m: StockMetric) => number,
+    colName: strin
