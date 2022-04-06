@@ -15,4 +15,7 @@ interface StockMetricsTableProps {
 
 const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
     return (
-      <Table stri
+      <Table striped bordered hover>
+        <thead>
+          <tr>
+            <th>Metr
