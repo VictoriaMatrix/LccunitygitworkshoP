@@ -8,4 +8,9 @@ interface StockMetricsTableProps {
   metrics: StockMetric[]
   metricKeys: Array<{
     accessor: (m: StockMetric) => number,
-    colName: strin
+    colName: string,
+  }>
+  quarterMapping: Map<Date, string>
+}
+
+const StockMetricsTable: React.F
