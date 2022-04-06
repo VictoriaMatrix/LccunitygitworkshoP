@@ -13,4 +13,6 @@ interface StockMetricsTableProps {
   quarterMapping: Map<Date, string>
 }
 
-const StockMetricsTable: React.F
+const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
+    return (
+      <Table stri
