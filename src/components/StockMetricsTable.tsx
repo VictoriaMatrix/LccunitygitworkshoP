@@ -18,4 +18,6 @@ const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Metr
+            <th>Metric</th>
+              {props.metrics.map(q =>
+                <th key={`
