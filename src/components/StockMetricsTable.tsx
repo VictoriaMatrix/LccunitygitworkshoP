@@ -20,4 +20,5 @@ const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
           <tr>
             <th>Metric</th>
               {props.metrics.map(q =>
-                <th key={`
+                <th key={`header-${q.date.toDateString()}`}>{getQuarter(q.date, props.quarterMapping)}</th>,
+      
