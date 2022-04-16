@@ -29,4 +29,4 @@ const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
             props.metricKeys.map(mKey =>
               <tr key={mKey.colName}>
                 <td>{mKey.colName}</td>
-                {props.m
+                {props.metrics.map(m => <td key={`${mKey.colName}-${m.date.toISOString()}`}>{mKey.access
