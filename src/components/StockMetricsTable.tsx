@@ -27,4 +27,6 @@ const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
         <tbody>
         {
             props.metricKeys.map(mKey =>
-              <tr key={mK
+              <tr key={mKey.colName}>
+                <td>{mKey.colName}</td>
+                {props.m
