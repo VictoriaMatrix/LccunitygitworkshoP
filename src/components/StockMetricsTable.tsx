@@ -37,4 +37,4 @@ const StockMetricsTable: React.FC<StockMetricsTableProps> = (props) => {
     )
 }
 
-exp
+export default StockMetricsTable
