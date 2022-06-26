@@ -1,3 +1,5 @@
 import styled from "styled-components"
 
-export const AppContainer 
+export const AppContainer = styled.div`
+
+`
