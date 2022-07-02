@@ -1,4 +1,9 @@
 
 interface StockNode {
     quarter: string
-    time
+    time: number
+    date: Date | null
+    close: number
+  }
+  
+  interface StockChart
