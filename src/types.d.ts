@@ -17,4 +17,6 @@ interface StockMetricsTableProps {
     metrics: StockMetric[]
     metricKeys: {
         colName: string
-        ac
+        accessor: (m: StockMetric) => number | Date | string
+    }[]
+    quarterMapping: Map<D
