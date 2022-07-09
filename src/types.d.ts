@@ -6,4 +6,7 @@ interface StockNode {
     close: number
   }
   
-  interface StockChart
+  interface StockChartProps {
+    history: StockHistory[],
+    predict: StockHistory[][],
+    quarterMapping: 
