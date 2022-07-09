@@ -9,4 +9,9 @@ interface StockNode {
   interface StockChartProps {
     history: StockHistory[],
     predict: StockHistory[][],
-    quarterMapping: 
+    quarterMapping: Map<Date, string>
+  }
+
+
+interface StockMetricsTableProps {
+    metrics:
