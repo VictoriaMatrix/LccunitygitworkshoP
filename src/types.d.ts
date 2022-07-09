@@ -14,4 +14,7 @@ interface StockNode {
 
 
 interface StockMetricsTableProps {
-    metrics:
+    metrics: StockMetric[]
+    metricKeys: {
+        colName: string
+        ac
