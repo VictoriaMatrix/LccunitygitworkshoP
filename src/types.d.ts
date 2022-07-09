@@ -19,4 +19,9 @@ interface StockMetricsTableProps {
         colName: string
         accessor: (m: StockMetric) => number | Date | string
     }[]
-    quarterMapping: Map<D
+    quarterMapping: Map<Date, string>
+}
+
+export interface News {
+    title: string,
+    bl
