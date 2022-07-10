@@ -24,4 +24,9 @@ interface StockMetricsTableProps {
 
 export interface News {
     title: string,
-    bl
+    blurb: string,
+    time: Date
+}
+
+export interface Article {
+   
