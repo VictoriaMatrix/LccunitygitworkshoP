@@ -29,4 +29,8 @@ export interface News {
 }
 
 export interface Article {
-   
+    source: {
+            id?: string,
+            name: string,
+        }
+      
