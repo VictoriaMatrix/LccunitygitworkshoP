@@ -36,4 +36,7 @@ export interface Article {
         author: string
         title: string
         description: string
-        ur
+        url: string
+        urlToImage: string
+        publishedAt: string
+        cont
