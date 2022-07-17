@@ -64,3 +64,35 @@ export const createOpposite = (original: StockHistory[]): StockHistory[] => {
 }
 
 export const getQuarter = (date: Date, quarterMapping: Map<Date, string>): string => {
+  const quarterStartDate = Array.from(quarterMapping.keys()).find(d => d >= date)
+  return quarterStartDate ? quarterMapping.get(quarterStartDate) || "NA" : "NA"
+}
+
+export const convertQuarterMapping = (dates: Date[]): Map<Date, string> => {
+  const x: Array<[Date, string]> = dates.map(d => {
+      const month = d.getMonth() + 1
+      const monthQuarter =
+       (month <= 3) ? "Q1" :
+       (month <= 6) ? "Q2" :
+       (month <= 9) ? "Q3" :
+       (month <= 12) ? "Q4" :
+       "NA"
+      const quarter = `${monthQuarter}-${d.getFullYear()}`
+      return [d, quarter]
+    })
+  return new Map(x)
+}
+
+export const seqArray = (start: number, end: number): number[] => {
+  const out: number[] = []
+  for (let n = start; n <= end; n++) {
+      out.push(n)
+  }
+  return out
+}
+
+export const parseDate = timeParse("%Y-%m-%d")
+
+export const convertDate = (date: Date): string => date.toISOString().slice(0, 10)
+export const convertMonthYear = (date: Date): string => `${date.getFullYear()}-${date.getMonth() + 1}`
+  
