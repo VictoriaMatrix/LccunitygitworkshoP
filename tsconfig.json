@@ -4,4 +4,9 @@
     "baseUrl": "",
     "lib": [
       "dom",
-      "dom.it
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esM
