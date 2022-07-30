@@ -9,4 +9,6 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "esM
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "s
