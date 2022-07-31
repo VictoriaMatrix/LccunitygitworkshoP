@@ -6,4 +6,7 @@
     "jsRules": {},
     "rules": {
         "semicolon": [true, "never"],
- 
+        "arrow-parens": false,
+        "interface-name": false
+    },
+    "ru
