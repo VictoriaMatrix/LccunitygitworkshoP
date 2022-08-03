@@ -9,4 +9,5 @@
         "arrow-parens": false,
         "interface-name": false
     },
-    "ru
+    "rulesDirectory": []
+}
